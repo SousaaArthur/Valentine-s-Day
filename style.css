@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFB6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.panel{
+    background-color: #FFC0CB;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+    border: 2px solid #f89baa;
+    border-radius: 10px;
+    box-shadow: 15px 20px 5px #f89bab73;
+}
+
+.textPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.images{
+    padding: 20px;
+    height: 250px;
+}
+
+.buttons{
+    display: flex;
+}
+
+#btnYes{
+    height: 40px;
+    width: 60px;
+    font-size: medium;
+    background-color: #fca7b5;
+    border: 2px solid #f89baa;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px #f89bab;
+    margin-left: -100px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#btnYes:hover{
+    background-color: #FFC0CB;
+    color: #fa8397;
+}
+
+#btnNo{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    font-size: medium;
+    background-color: #fca7b5;
+    border: 2px solid #f89baa;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px #f89bab;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#btnNo:hover{
+    background-color: #FFC0CB;
+    color: #fa8397;
+}
+
