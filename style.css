@@ -48,6 +48,13 @@ body{
     display: flex;
 }
 
+.credits{
+    margin-top: 20px;
+    font-size: small;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
 #btnYes{
     height: 40px;
     width: 60px;
